@@ -57,7 +57,7 @@ const Footer = () => {
           <div className="lg:col-span-1">
             <div className="flex items-center gap-2 mb-6">
               <Building2 className="h-8 w-8" />
-              <span className="text-2xl font-bold">Akshara Real Estate & Developers</span>
+              <span className="text-2xl font-bold">Real Estate & Developers</span>
             </div>
             <p className="text-primary-foreground/80 mb-6">
               Your trusted real estate partner for tier 2 & 3 cities. Making homeownership dreams come true with transparency, trust, and expertise.
@@ -69,7 +69,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="h-4 w-4" />
-                <span>info@Akshara.com</span>
+                <span>info@xyz.com</span>
               </div>
               <div className="flex items-center gap-3">
                 <MapPin className="h-4 w-4" />
@@ -151,7 +151,7 @@ const Footer = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-primary-foreground/60 text-sm">
-              © 2024 Akshara Real Estate & Developers. All rights reserved.
+              © 2024 Real Estate & Developers. All rights reserved.
             </p>
             <div className="flex gap-6 text-sm">
               <a href="/privacy" className="text-primary-foreground/60 hover:text-secondary transition-colors">
