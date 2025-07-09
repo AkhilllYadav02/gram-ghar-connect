@@ -8,7 +8,7 @@ const FeaturedProperties = () => {
     {
       id: 1,
       title: "Sunrise Residency",
-      location: "Nashik, Maharashtra",
+      location: "Kasia, Kushinagar",
       price: "₹45 Lakhs",
       type: "2 BHK Apartment",
       beds: 2,
@@ -22,7 +22,7 @@ const FeaturedProperties = () => {
     {
       id: 2,
       title: "Green Valley Villas",
-      location: "Aurangabad, Maharashtra",
+      location: "Kushinagar, Uttar Pradesh",
       price: "₹85 Lakhs",
       type: "3 BHK Villa",
       beds: 3,
@@ -36,7 +36,7 @@ const FeaturedProperties = () => {
     {
       id: 3,
       title: "City Heights",
-      location: "Jalgaon, Maharashtra",
+      location: "Gorakhpur, Uttar Pradesh",
       price: "₹32 Lakhs",
       type: "1 BHK Apartment",
       beds: 1,
