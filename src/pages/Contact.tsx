@@ -143,7 +143,7 @@ const Contact = () => {
                 <h3 className="text-xl font-bold text-primary mb-2">Call Us Now</h3>
                 <p className="text-muted-foreground mb-4">Speak directly with our property experts</p>
                 <Button variant="secondary" className="w-full">
-                  +91 98765 43210
+                  +91 80907 00108
                 </Button>
               </CardContent>
             </Card>
@@ -409,7 +409,7 @@ const Contact = () => {
                   </p>
                   <Button variant="secondary" className="w-full">
                     <Phone className="mr-2 h-4 w-4" />
-                    +91 90123 45678 (24/7)
+                    +91 80907 00108 (24/7)
                   </Button>
                 </CardContent>
               </Card>
