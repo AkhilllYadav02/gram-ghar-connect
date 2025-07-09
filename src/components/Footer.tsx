@@ -20,11 +20,9 @@ const Footer = () => {
   ];
 
   const locations = [
-    "Nashik, Maharashtra",
-    "Aurangabad, Maharashtra", 
-    "Jalgaon, Maharashtra",
-    "Ahmednagar, Maharashtra",
-    "Kolhapur, Maharashtra",
+    "Kasia, Uttar Pradesh",
+    "Gorakhpur, Uttar Pradesh",
+    "Kushinagar, Uttar Pradesh"
   ];
 
   return (
@@ -59,7 +57,7 @@ const Footer = () => {
           <div className="lg:col-span-1">
             <div className="flex items-center gap-2 mb-6">
               <Building2 className="h-8 w-8" />
-              <span className="text-2xl font-bold">GramGhar Connect</span>
+              <span className="text-2xl font-bold">Akshara Real Estate & Developers</span>
             </div>
             <p className="text-primary-foreground/80 mb-6">
               Your trusted real estate partner for tier 2 & 3 cities. Making homeownership dreams come true with transparency, trust, and expertise.
@@ -67,15 +65,15 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center gap-3">
                 <Phone className="h-4 w-4" />
-                <span>+91 98765 43210</span>
+                <span>+91 8090700108</span>
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="h-4 w-4" />
-                <span>info@gramgharconnect.com</span>
+                <span>info@Akshara.com</span>
               </div>
               <div className="flex items-center gap-3">
                 <MapPin className="h-4 w-4" />
-                <span>Nashik, Maharashtra, India</span>
+                <span>Kasia, Kushinagar, India</span>
               </div>
             </div>
           </div>
@@ -153,7 +151,7 @@ const Footer = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-primary-foreground/60 text-sm">
-              © 2024 GramGhar Connect. All rights reserved.
+              © 2024 Akshara Real Estate & Developers. All rights reserved.
             </p>
             <div className="flex gap-6 text-sm">
               <a href="/privacy" className="text-primary-foreground/60 hover:text-secondary transition-colors">
