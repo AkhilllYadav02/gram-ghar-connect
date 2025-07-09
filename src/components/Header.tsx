@@ -1,9 +1,10 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Phone, Mail, Building2 } from "lucide-react";
 
 const Header = () => {
+  const location = useLocation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navItems = [
@@ -55,7 +56,9 @@ const Header = () => {
               <Link
                 key={item.name}
                 to={item.href}
-                className="text-foreground hover:text-primary transition-colors font-medium"
+                className={`text-foreground hover:text-primary transition-colors font-medium ${
+                  location.pathname === item.href ? 'text-primary border-b-2 border-primary' : ''
+                }`}
               >
                 {item.name}
               </Link>

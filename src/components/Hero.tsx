@@ -3,6 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Search, MapPin, Home, Building2, IndianRupee, Phone } from "lucide-react";
+import { Link } from "react-router-dom";
 import heroImage from "@/assets/hero-property.jpg";
 
 const Hero = () => {
@@ -35,14 +36,18 @@ const Hero = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button variant="hero" size="lg" className="text-lg px-8">
-                <Search className="mr-2 h-5 w-5" />
-                Explore Properties
-              </Button>
-              <Button variant="outline" size="lg" className="text-lg px-8 bg-background/20 backdrop-blur border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary">
-                <Phone className="mr-2 h-5 w-5" />
-                Consult Expert
-              </Button>
+              <Link to="/projects">
+                <Button variant="hero" size="lg" className="text-lg px-8 w-full sm:w-auto">
+                  <Search className="mr-2 h-5 w-5" />
+                  Explore Properties
+                </Button>
+              </Link>
+              <Link to="/contact">
+                <Button variant="outline" size="lg" className="text-lg px-8 bg-background/20 backdrop-blur border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary w-full sm:w-auto">
+                  <Phone className="mr-2 h-5 w-5" />
+                  Consult Expert
+                </Button>
+              </Link>
             </div>
 
             {/* Trust Indicators */}
