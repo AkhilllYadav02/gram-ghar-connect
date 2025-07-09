@@ -25,11 +25,11 @@ const Header = () => {
             <div className="flex items-center gap-4">
               <div className="flex items-center gap-2">
                 <Phone className="h-3 w-3" />
-                <span>+91 98765 43210</span>
+                <span>+91 8090700108</span>
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="h-3 w-3" />
-                <span>info@gramgharconnect.com</span>
+                <span>info@akshara.com</span>
               </div>
             </div>
             <div className="hidden md:block text-sm">
@@ -46,7 +46,7 @@ const Header = () => {
           <Link to="/" className="flex items-center gap-2 text-2xl font-bold text-primary">
             <Building2 className="h-8 w-8" />
             <span className="bg-gradient-warm bg-clip-text text-transparent">
-              GramGhar Connect
+              Akshara Real Estate & Developer
             </span>
           </Link>
 
