@@ -37,28 +37,28 @@ const Contact = () => {
 
   const offices = [
     {
-      city: "Nashik",
-      address: "Shop No. 15, Ground Floor, City Center Mall, College Road, Nashik - 422005",
-      phone: "+91 98765 43210",
-      email: "nashik@gramgharconnect.com",
+      city: "Kasia",
+      address: "Amiya Nagar, ward no 26, PO Kasia, Kushinagar, Uttar Pradesh, 274402",
+      phone: "+91 8090700108",
+      email: "info@akshara.com",
       hours: "Mon-Sat: 9:00 AM - 7:00 PM",
       manager: "Rajesh Sharma",
       image: "https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
     },
     {
-      city: "Aurangabad",
-      address: "Office No. 201, Business Hub, Station Road, Aurangabad - 431001",
-      phone: "+91 87654 32109",
-      email: "aurangabad@gramgharconnect.com",
+      city: "Kushinagar",
+      address: "Amiya Nagar, ward no 26, PO Kasia, Kushinagar, Uttar Pradesh, 274402",
+      phone: "+91 8090700108",
+      email: "info@akshara.com",
       hours: "Mon-Sat: 9:30 AM - 6:30 PM",
       manager: "Priya Patel",
       image: "https://images.unsplash.com/photo-1497366811353-6870744d04b2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
     },
     {
-      city: "Jalgaon",
-      address: "Ground Floor, Commercial Complex, MG Road, Jalgaon - 425001",
-      phone: "+91 76543 21098",
-      email: "jalgaon@gramgharconnect.com",
+      city: "Gorakhpur",
+      address: "Amiya Nagar, ward no 26, PO Kasia, Kushinagar, Uttar Pradesh, 274402",
+      phone: "+91 8090700108",
+      email: "info@akshara.com",
       hours: "Mon-Sat: 10:00 AM - 6:00 PM",
       manager: "Amit Kulkarni",
       image: "https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
@@ -236,11 +236,11 @@ const Contact = () => {
                         <SelectValue placeholder="Select city" />
                       </SelectTrigger>
                       <SelectContent>
-                        <SelectItem value="nashik">Nashik</SelectItem>
-                        <SelectItem value="aurangabad">Aurangabad</SelectItem>
-                        <SelectItem value="jalgaon">Jalgaon</SelectItem>
-                        <SelectItem value="ahmednagar">Ahmednagar</SelectItem>
-                        <SelectItem value="kolhapur">Kolhapur</SelectItem>
+                        <SelectItem value="nashik">Kasia</SelectItem>
+                        <SelectItem value="aurangabad">Kushinagar</SelectItem>
+                        <SelectItem value="jalgaon">Gorakhpur</SelectItem>
+                        <SelectItem value="ahmednagar">Gorakhpur City</SelectItem>
+                        <SelectItem value="kolhapur">Kushinagar Airport</SelectItem>
                         <SelectItem value="other">Other</SelectItem>
                       </SelectContent>
                     </Select>
