@@ -46,7 +46,7 @@ const Header = () => {
           <Link to="/" className="flex items-center gap-2 text-2xl font-bold text-primary">
             <Building2 className="h-8 w-8" />
             <span className="bg-gradient-warm bg-clip-text text-transparent">
-              Akshara Real Estate & Developer
+              Real Estate & Developer
             </span>
           </Link>
 
