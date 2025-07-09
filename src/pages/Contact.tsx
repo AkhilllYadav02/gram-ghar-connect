@@ -236,11 +236,11 @@ const Contact = () => {
                         <SelectValue placeholder="Select city" />
                       </SelectTrigger>
                       <SelectContent>
-                        <SelectItem value="nashik">Kasia</SelectItem>
-                        <SelectItem value="aurangabad">Kushinagar</SelectItem>
-                        <SelectItem value="jalgaon">Gorakhpur</SelectItem>
-                        <SelectItem value="ahmednagar">Gorakhpur City</SelectItem>
-                        <SelectItem value="kolhapur">Kushinagar Airport</SelectItem>
+                        <SelectItem value="kasia">Kasia</SelectItem>
+                        <SelectItem value="kushinagar">Kushinagar</SelectItem>
+                        <SelectItem value="gorakhpur">Gorakhpur</SelectItem>
+                        <SelectItem value="gorakhpur_city">Gorakhpur City</SelectItem>
+                        <SelectItem value="kushinagar_airport">Kushinagar Airport</SelectItem>
                         <SelectItem value="other">Other</SelectItem>
                       </SelectContent>
                     </Select>
